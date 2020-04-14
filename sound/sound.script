@@ -1,4 +1,0 @@
-function init(self)
-	pprint("play sound")
-	sound.play("#sound")
-end
