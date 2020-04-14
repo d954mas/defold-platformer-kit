@@ -11,12 +11,20 @@ speech_content =
 {
 	[1] =
 	{
-		texture = "06 Knight",
-		display_name = "Hero",
-		content = "Hello world!",
-		choices = nil,
+		texture = "23 Zombie Knight",
+		display_name = "Black Knight",
+		content = "Halt! You shall not enter The Master's chamber!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Step aside, knight! I have no quarrel with you.",
+				next = 2
+			},
+		},
 		next = nil
 	},
+
 
 	[2] =
 	{

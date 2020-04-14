@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="" />
+    <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit/content/speech_content.lua" beforeDir="false" afterPath="$PROJECT_DIR$/platformer_creation_kit/content/speech_content.lua" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,10 +89,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894389146">
+    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894762217">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894389146" />
+    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894762217" />
     <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586894366600">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -106,9 +109,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="864" y="144" key="git4idea.rebase.GitUnstructuredEditor/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586893700287" />
-    <state x="687" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1586892748603">
+    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup" timestamp="1586894739500">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="219" width="672" height="678" key="search.everywhere.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586892748603" />
+    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894739500" />
   </component>
 </project>
