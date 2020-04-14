@@ -85,10 +85,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586893403289">
+    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894360019">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586893403289" />
+    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894360019" />
+    <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586894366600">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894366600" />
     <state x="830" y="365" key="git4idea.rebase.GitRebaseDialog" timestamp="1586893661625">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
