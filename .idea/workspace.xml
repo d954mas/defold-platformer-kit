@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="HEAD~2" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,10 +86,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894360019">
+    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894389146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894360019" />
+    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894389146" />
     <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586894366600">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
