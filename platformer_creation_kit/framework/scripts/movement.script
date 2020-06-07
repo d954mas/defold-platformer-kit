@@ -327,6 +327,10 @@ end
 
 local function handle_one_sided(self, data)
 	local vely = vmath.vector3(0, self.velocity.y, 0)
+	if(vmath.length(vely) == 0)then
+		vely.y = 0.00001
+	end
+
 	local dot = vmath.dot(vmath.normalize(vely), data.normal)
 	local collide = self.velocity.y < 0 and dot < -0.7 and (self.last_position.y + 8) > data.position.y
 	

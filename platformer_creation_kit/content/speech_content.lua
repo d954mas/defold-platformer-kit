@@ -395,7 +395,7 @@ speech_content =
 	{
 		texture = "10 Mage",
 		display_name = "Mage",
-		--content = "No money, no honey",
+		content = "No money, no honey",
 		choices = nil,
 		next = nil
 	},
@@ -407,4 +407,32 @@ speech_content =
 		choices = nil,
 		next = nil
 	},
+	[1011] =
+	{
+		texture = "10 Mage",
+		display_name = "Mage",
+		content = "Did you want to lose",
+		choices =
+		{
+			[1] =
+			{
+				text = "Yes",
+				next = 1012
+			},
+			[2] =
+			{
+				text = "No",
+			},
+		},
+		next = nil
+	},
+	[1012] =
+	{
+		texture = "10 Mage",
+		display_name = "Mage",
+		content = "You lose",
+		choices = nil,
+		next = nil
+	},
+	
 }

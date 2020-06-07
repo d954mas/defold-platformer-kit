@@ -426,7 +426,7 @@ instances {
 }
 instances {
   id: "black_knight"
-  prototype: "/platformer_creation_kit_examples/story3/black_knight.go"
+  prototype: "/platformer_creation_kit_examples/levels/story3/black_knight.go"
   position {
     x: 2497.3967
     y: 931.0219
@@ -446,7 +446,7 @@ instances {
 }
 instances {
   id: "black_wizard"
-  prototype: "/platformer_creation_kit_examples/story3/black_wizard.go"
+  prototype: "/platformer_creation_kit_examples/levels/story3/black_wizard.go"
   position {
     x: 11394.932
     y: 839.6143
@@ -864,7 +864,7 @@ instances {
 }
 instances {
   id: "hero"
-  prototype: "/platformer_creation_kit_examples/story3/story3_hero.go"
+  prototype: "/platformer_creation_kit_examples/levels/story3/story3_hero.go"
   position {
     x: -610.0458
     y: 691.395
@@ -1143,7 +1143,7 @@ embedded_instances {
   id: "level"
   data: "components {\n"
   "  id: \"tilemap\"\n"
-  "  component: \"/platformer_creation_kit_examples/story3/story3.tilemap\"\n"
+  "  component: \"/platformer_creation_kit_examples/levels/story3/story3.tilemap\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -1159,7 +1159,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
-  "  data: \"collision_shape: \\\"/platformer_creation_kit_examples/story3/story3.tilemap\\\"\\n"
+  "  data: \"collision_shape: \\\"/platformer_creation_kit_examples/levels/story3/story3.tilemap\\\"\\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\\n"
   "mass: 0.0\\n"
   "friction: 0.1\\n"

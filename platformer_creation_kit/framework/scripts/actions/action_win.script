@@ -1,0 +1,7 @@
+
+function on_message(self, message_id, message, sender)
+    if message_id == hash("trigger") then
+        msg.post("win_screen", "win", {})
+        msg.post("hero#movement", "win", {})
+    end
+end

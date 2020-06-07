@@ -1,5 +1,53 @@
 name: "default"
 instances {
+  id: "hero"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
+  position {
+    x: -735.0
+    y: 106.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "class"
+    properties {
+      id: "class"
+      value: "mage"
+      type: PROPERTY_TYPE_HASH
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "win"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/win.go"
+  position {
+    x: -411.0
+    y: 197.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "background"
   prototype: "/platformer_creation_kit/building_blocks/gameobjects/backgrounds/background.go"
   position {
@@ -214,79 +262,11 @@ instances {
   }
 }
 instances {
-  id: "hero"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/hero/hero.go"
+  id: "action_trigger"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
-    x: -735.0
-    y: 106.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "class"
-    properties {
-      id: "class"
-      value: "mage"
-      type: PROPERTY_TYPE_HASH
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "win"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/triggers/win.go"
-  position {
-    x: 2441.0
-    y: 158.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "enemy"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/enemies/walking_enemy.go"
-  position {
-    x: -190.0
-    y: 118.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "condition_character_died"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/conditions/condition_character_died.go"
-  position {
-    x: -800.0
-    y: 419.0
+    x: -1027.0
+    y: 205.0
     z: 0.0
   }
   rotation {
@@ -297,14 +277,9 @@ instances {
   }
   component_properties {
     id: "script"
-    properties {
-      id: "target_url"
-      value: "/enemy"
-      type: PROPERTY_TYPE_URL
-    }
     properties {
       id: "action_url"
-      value: "/action_change_keys"
+      value: "/action_win"
       type: PROPERTY_TYPE_URL
     }
   }
@@ -315,153 +290,11 @@ instances {
   }
 }
 instances {
-  id: "action_change_keys"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_change_keys.go"
+  id: "action_win"
+  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_win.go"
   position {
     x: 0.0
     y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "amount"
-      value: "1.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "condition_character_died1"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/conditions/condition_character_died.go"
-  position {
-    x: -800.0
-    y: 419.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "target_url"
-      value: "/enemy"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "action_url"
-      value: "/action_open_door"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "chest"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/chest.go"
-  position {
-    x: -897.0
-    y: 99.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "keys_contained"
-      value: "1.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-    properties {
-      id: "locked"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_open_door"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "/chest"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: -2.0
-    y: 132.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "key"
-  prototype: "/platformer_creation_kit/building_blocks/gameobjects/pickups/key.go"
-  position {
-    x: -22.0
-    y: 222.0
     z: 0.0
   }
   rotation {
@@ -481,7 +314,7 @@ embedded_instances {
   id: "tilemap"
   data: "components {\n"
   "  id: \"map\"\n"
-  "  component: \"/platformer_creation_kit_examples/mygame/map.tilemap\"\n"
+  "  component: \"/platformer_creation_kit_examples/examples/win_action/map.tilemap\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -497,7 +330,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
-  "  data: \"collision_shape: \\\"/platformer_creation_kit_examples/mygame/map.tilemap\\\"\\n"
+  "  data: \"collision_shape: \\\"/platformer_creation_kit_examples/examples/win_action/map.tilemap\\\"\\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\\n"
   "mass: 0.0\\n"
   "friction: 0.1\\n"
@@ -541,9 +374,15 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "on_died_add_key"
-  children: "action_change_keys"
-  children: "condition_character_died"
+  id: "base"
+  children: "background"
+  children: "camera"
+  children: "death_screen"
+  children: "on_screen_controls"
+  children: "particle_factory"
+  children: "player_hud"
+  children: "speech_controller"
+  children: "win_screen"
   data: ""
   position {
     x: 0.0
@@ -563,10 +402,9 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "on_died_open_chest"
-  children: "action_open_door"
-  children: "chest"
-  children: "condition_character_died1"
+  id: "win_action_group"
+  children: "action_trigger"
+  children: "action_win"
   data: ""
   position {
     x: 0.0

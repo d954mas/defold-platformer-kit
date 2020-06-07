@@ -3,7 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.project" beforeDir="false" afterPath="$PROJECT_DIR$/game.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.collection" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.collection" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit/building_blocks/gameobjects/enemies/custom_enemy.go" beforeDir="false" afterPath="$PROJECT_DIR$/platformer_creation_kit/building_blocks/gameobjects/enemies/custom_enemy.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platformer_creation_kit/content/speech_content.lua" beforeDir="false" afterPath="$PROJECT_DIR$/platformer_creation_kit/content/speech_content.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit/example/example_level.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit/example/example_map.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit/framework/scripts/movement.script" beforeDir="false" afterPath="$PROJECT_DIR$/platformer_creation_kit/framework/scripts/movement.script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/mygame/custom_enemy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/mygame/map.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/mygame/my_level.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/rich_example/grand_wizard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/rich_example/rich_example.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/rich_example/rich_example.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/rich_example/rich_example_hero.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/spend_coins/map.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/spend_coins/speech_content_coins.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/spend_coins/spend_coins.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story2/story2.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story2/story2.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story2/story2_hero.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story3/black_knight.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story3/black_wizard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story3/story3.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story3/story3.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story3/story3_hero.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story4/queen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story4/story4.collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story4/story4.tilemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story4/story4_enemy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story4/story4_hero.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/story4/wizard.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +47,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WFGV2FvcjAwYwGbn5vqK3X1q3n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -89,14 +124,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894762217">
+    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1586894861459">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894762217" />
+    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894861459" />
     <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586894366600">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894366600" />
+    <state x="718" y="233" width="776" height="536" key="find.popup" timestamp="1591534823237">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="718" y="233" width="776" height="536" key="find.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591534823237" />
     <state x="830" y="365" key="git4idea.rebase.GitRebaseDialog" timestamp="1586893661625">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -109,9 +148,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="864" y="144" key="git4idea.rebase.GitUnstructuredEditor/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586893700287" />
-    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup" timestamp="1586894739500">
+    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup" timestamp="1591534829837">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1586894739500" />
+    <state x="687" y="218" width="672" height="678" key="search.everywhere.popup/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591534829837" />
   </component>
 </project>

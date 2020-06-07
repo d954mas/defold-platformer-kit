@@ -31,7 +31,9 @@ app_icon_192x192 = /platformer_creation_kit/framework/sprites/hero.png
 version_code = 1
 
 [sound]
-max_sound_buffers = 64
+max_sound_buffers = 256
+max_sound_data = 256
+max_sound_sources = 32
 
 [collection]
 max_instances = 2048
@@ -50,4 +52,10 @@ max_count = 2048
 
 [tilemap]
 max_tile_count = 8192
+
+[resource]
+max_resources = 4096
+
+[particle_fx]
+max_count = 256
 

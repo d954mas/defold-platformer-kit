@@ -91,6 +91,7 @@ embedded_components {
   "mask: \"obstacle\"\n"
   "mask: \"arrow\"\n"
   "mask: \"one_sided\"\n"
+  "mask: \"spikes\"\n"
   "embedded_collision_shape {\n"
   "  shapes {\n"
   "    shape_type: TYPE_BOX\n"
