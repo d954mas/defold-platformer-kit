@@ -33,7 +33,8 @@ version_code = 1
 [sound]
 max_sound_buffers = 256
 max_sound_data = 256
-max_sound_sources = 32
+max_sound_sources = 256
+max_component_count = 256
 
 [collection]
 max_instances = 2048
