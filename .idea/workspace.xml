@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="525ae92a-da84-4db9-8ec3-be90be43520c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformer_creation_kit_examples/levels/example_level/example_level.collection" beforeDir="false" afterPath="$PROJECT_DIR$/platformer_creation_kit_examples/levels/example_level/example_level.collection" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +99,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="757" y="360" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591539097177" />
-    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1591539988498">
+    <state x="680" y="95" key="CommitChangelistDialog2" timestamp="1592152934762">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1591539988498" />
+    <state x="680" y="95" key="CommitChangelistDialog2/-2560.-13.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1592152934762" />
     <state x="834" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586894366600">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
