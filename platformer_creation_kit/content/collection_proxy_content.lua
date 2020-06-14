@@ -9,5 +9,6 @@ collection_proxies =
 	[4] = "#story3",
 	[5] = "#story4",
 	[6] = "#my_story",
-	[7] = "#my_level_2"
+	[7] = "#my_level_2",
+	[8] = "#example_level"
 }

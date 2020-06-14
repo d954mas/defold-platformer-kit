@@ -1,4 +1,4 @@
-image: "/platformer_creation_kit_examples/levels/story_4_old/tileset_old.png"
+image: "/platformer_creation_kit_examples/levels/example_level/tileset_old.png"
 tile_width: 140
 tile_height: 140
 tile_margin: 0

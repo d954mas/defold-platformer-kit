@@ -107,6 +107,11 @@ components {
     z: 0.0
     w: 1.0
   }
+  properties {
+    id: "max_health"
+    value: "5.0"
+    type: PROPERTY_TYPE_NUMBER
+  }
 }
 components {
   id: "input"
@@ -151,6 +156,11 @@ components {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  properties {
+    id: "jump_takeoff_speed"
+    value: "770.0"
+    type: PROPERTY_TYPE_NUMBER
   }
 }
 embedded_components {
@@ -420,28 +430,6 @@ embedded_components {
   }
 }
 embedded_components {
-  id: "spell_cast"
-  type: "sound"
-  data: "sound: \"/platformer_creation_kit/framework/sounds/FireBallCast.wav\"\n"
-  "looping: 0\n"
-  "group: \"master\"\n"
-  "gain: 1.0\n"
-  "pan: 0.0\n"
-  "speed: 1.0\n"
-  ""
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-}
-embedded_components {
   id: "spinemodel_left"
   type: "spinemodel"
   data: "spine_scene: \"/platformer_creation_kit/framework/Characters/hero.spinescene\"\n"
@@ -481,28 +469,6 @@ embedded_components {
     y: 1.0
     z: 0.0
     w: 6.123234E-17
-  }
-}
-embedded_components {
-  id: "swing"
-  type: "sound"
-  data: "sound: \"/platformer_creation_kit/framework/sounds/swing00.wav\"\n"
-  "looping: 0\n"
-  "group: \"master\"\n"
-  "gain: 1.0\n"
-  "pan: 0.0\n"
-  "speed: 1.0\n"
-  ""
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
 }
 embedded_components {

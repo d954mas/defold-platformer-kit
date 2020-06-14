@@ -746,7 +746,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Story 4"
+  text: "Example"
   font: "main_menu_font"
   id: "story4_lbl"
   xanchor: XANCHOR_NONE
